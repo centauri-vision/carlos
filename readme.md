@@ -5,6 +5,7 @@ To run the app, follow these steps in order:
    ```
    cp .env.example .env
    ```
+   Now, set the `OPENAI_API_KEY` and `TAVILY_API_KEY` fields in the newly created env file.
    
 3. Create a python virtual environment (ensure python version is `>3.10`).  
    ```
