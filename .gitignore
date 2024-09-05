@@ -18,6 +18,7 @@ outputs/
 
 #Ignore my local docs
 my-docs/
+backup-docs/
 
 #Ignore pycache
 **/__pycache__/

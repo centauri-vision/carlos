@@ -2,10 +2,10 @@
 <html lang="en">
 
 <head>
-    <title>GPT Researcher</title>
-    <meta name="description" content="A research assistant powered by GPT-4">
+    <title>Carlos</title>
+    <meta name="description" content="A research assistant for Centauri AI [INTERNAL]">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="./static/favicon.ico">
+    <link rel="icon" href="./static/centauri.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
@@ -43,22 +43,22 @@
     <section class="landing">
         <div class="max-w-5xl mx-auto text-center">
             <h1 class="text-4xl font-extrabold mx-auto lg:text-7xl">
-                Say Goodbye to <br>
+                Meet
                 <span
-                    style="background-image:linear-gradient(to right, #9867F0, #ED4E50); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Hours
-                    of Research</span>
+                    style="background-image:linear-gradient(to right, #9867F0, #ED4E50); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
+                    Carlos</span>
             </h1>
             <p class="max-w-5xl mx-auto text-gray-600 mt-8" style="font-size:20px">
-                Say Hello to GPT Researcher, your AI mate for rapid insights and comprehensive research. GPT Researcher
-                takes care of everything from accurate source gathering to organization of research results - all in one
-                platform designed to make your research process a breeze.
+                An assistant for conducting internal research at Centauri AI.
+                Carlos is powered by OpenAI's gpt-4-vison-preview model. Since it is deployed on Azure,
+                the data collected is stored securely outside of OpenAI. For all proposals created
+                using Carlos, ensure that they are formatted as per the latest 'cdx_template' file.
             </p>
             <a href="#form" class="btn btn-primary">Get Started</a>
         </div>
     </section>
 
     <main class="container" id="form">
-        <div class="agent-item"><img src="/static/gptr-logo.png" class="avatar" alt="Auto Agent"></div>
         <form method="POST" class="mt-3" onsubmit="GPTResearcher.startResearch(); return false;">
             <div class="form-group">
                 <label for="task" class="agent-question">What would you like me to research next?</label>
@@ -151,11 +151,6 @@
             </div>
         </div>
     </main>
-
-    <footer>
-        <p>GPT Researcher &copy; 2024 | <a target="_blank" href="https://github.com/assafelovic/gpt-researcher">GitHub
-                Page</a></p>
-    </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"></script>
     <script src="/site/scripts.js"></script>
