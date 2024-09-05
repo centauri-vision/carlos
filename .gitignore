@@ -36,3 +36,5 @@ docs/build
 .langgraph-data/
 .next/
 package-lock.json
+
+setup.sh
